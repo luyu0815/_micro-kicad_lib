@@ -1,0 +1,183 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0.1R
+D RES,0.1R,1%,1W,800ppm,2512
+K 200R
+F https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25466_1505901400439983083.pdf
+$ENDCMP
+#
+$CMP 100nF,50V
+D CAP,100nF,50V,20%,Y5V,C0603(SAMSUNG:10%,X7R)
+K 100nF
+F https://atta.szlcsc.com/upload/public/pdf/source/20170923/C42998_1506149457343988769.pdf
+$ENDCMP
+#
+$CMP 10uF,10V
+D CAP,10uF,10V,10%,X5R,C0603
+K 10uF
+F https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707703378.pdf
+$ENDCMP
+#
+$CMP 10uF,35V
+D CAP,10uF,35V,20%,0405(DxL:4x5.3mm)
+K 10uF
+F https://atta.szlcsc.com/upload/public/pdf/source/20181120/C249692_32417ECF269CEB3C4E3C182B5BF18E8B.pdf
+$ENDCMP
+#
+$CMP 12V
+D PWR Symbol
+K 12V
+$ENDCMP
+#
+$CMP 1KF
+D RES,1K,1%,1/10W,100ppm,0603
+K 1K,1KF
+F https://atta.szlcsc.com/upload/public/pdf/source/20170410/1491788163082.pdf
+$ENDCMP
+#
+$CMP 1N5819HW-7-F
+D Schottky Diode,Io=1A,Vf(max)=0.45V,Vrrm=40V,SOD123
+K 5819
+F https://www.diodes.com/assets/Datasheets/ds30217.pdf
+$ENDCMP
+#
+$CMP 200R
+D RES,200R,5%,1/4W,R1206
+K 200R
+F https://atta.szlcsc.com/upload/public/pdf/source/20170410/1491788163082.pdf
+$ENDCMP
+#
+$CMP 24V
+D PWR Symbol
+K 24V
+$ENDCMP
+#
+$CMP 2A
+D PTC,Ihold=2A,Itrip=4A,Vmax=16V,R1812
+K PTC,2A
+F http://www.ruilon.com.cn/pdf/SMD1812(0.1A~4A).pdf
+$ENDCMP
+#
+$CMP 3V3
+D PWR Symbol
+K 3V3
+$ENDCMP
+#
+$CMP 510RF
+D RES,510R,1%,1/10W,100ppm,0603
+K 510R,510RF
+F https://atta.szlcsc.com/upload/public/pdf/source/20170920/C23193_1505901125164982575.pdf
+$ENDCMP
+#
+$CMP 5V0
+D PWR Symbol
+K 5V0
+$ENDCMP
+#
+$CMP 680RF
+D RES,680R,1%,1/10W,100ppm,0603
+K 680R,680RF
+F https://atta.szlcsc.com/upload/public/pdf/source/20170912/C112310_1505207748974963379.pdf
+$ENDCMP
+#
+$CMP AMS1117-3.3
+D LDO,Vin=30Vmax,Iout=1Amax,SOT223
+K 1117
+F https://atta.szlcsc.com/upload/public/pdf/source/20190906/C426566_95BE246DE70C248781207323626ADB09.pdf
+$ENDCMP
+#
+$CMP AMS1117-5.0
+D LDO,Vin=30Vmax,Iout=1Amax,SOT223
+K 1117
+F https://atta.szlcsc.com/upload/public/pdf/source/20191224/C473812_BC040FEB3240886B16D0A1B097E2F984.pdf
+$ENDCMP
+#
+$CMP AT8870
+D Brushed DC Motor Driver
+K AT,8870
+F https://www.heroic.com.cn/public/uploads/file/20191114/1573721316525635.pdf
+$ENDCMP
+#
+$CMP CN_01x02_F
+D Female connector 01x02
+K CN
+F ~
+$ENDCMP
+#
+$CMP CN_01x02_M
+D Male connector 01x02
+K CN
+F ~
+$ENDCMP
+#
+$CMP DRV8870
+D Brushed DC Motor Drive
+K DRV,8870
+F http://www.ti.com/lit/ds/symlink/drv8870.pdf
+$ENDCMP
+#
+$CMP GND
+D DGND
+K power-flag
+F ~
+$ENDCMP
+#
+$CMP GNDA
+D AGND
+K power-flag
+$ENDCMP
+#
+$CMP MMBT3904LT1G
+D Q_NPN_BEC,Ic=0.2A,Vce=40V,SOT23
+K NPN,3904
+F https://www.onsemi.cn/PowerSolutions/document/MMBT3904LT1-D.PDF
+$ENDCMP
+#
+$CMP PESD3V3L4UG
+D ESD,TVS,Vrwm=3V3,Vbr(min)=5.32V,Vcl=12V,Ppp=30W,Ipp=3A,Cd=22pF
+K ESD,TVS
+F https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf
+$ENDCMP
+#
+$CMP PESD5V0L4UG
+D ESD,TVS,Vrwm=5V0,Vbr(min)=6.46V,Vcl=13V,Ppp=30W,Ipp=2.5A,Cd=16pF
+K ESD,TVS
+F https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf
+$ENDCMP
+#
+$CMP RKJXV1224005
+D RP,10K,Vrp(max)=5V,Vsw(max)=12V,Isw(max)=50mA,Fpo=7.4N
+K RP,SW,10K
+F https://www.alps.com/prod/info/C/HTML/MultiControl/Potentiometer/RKJXK/RKJXV1224005.html
+$ENDCMP
+#
+$CMP RZ7899
+D Brushed DC Motor Drive
+K RZ,7899
+F http://www.rz-mic.com/product.asp
+$ENDCMP
+#
+$CMP STM32F042F4P6
+F https://www.st.com/resource/en/datasheet/stm32f042c4.pdf
+$ENDCMP
+#
+$CMP VCC
+D PWR Symbol
+K VCC
+$ENDCMP
+#
+$CMP VDD
+D PWR Symbol
+K VDD
+$ENDCMP
+#
+$CMP VM
+D PWR Symbol
+K VM
+$ENDCMP
+#
+$CMP infonet.io
+D Logo,infonet.io
+$ENDCMP
+#
+#End Doc Library
