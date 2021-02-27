@@ -1,24 +1,36 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 0.1R
+$CMP 0.1R,R2512
 D RES,0.1R,1%,1W,800ppm,2512
 K 200R
 F https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25466_1505901400439983083.pdf
 $ENDCMP
 #
-$CMP 100nF,50V
+$CMP 100nF,50V,C0603
 D CAP,100nF,50V,20%,Y5V,C0603(SAMSUNG:10%,X7R)
 K 100nF
 F https://atta.szlcsc.com/upload/public/pdf/source/20170923/C42998_1506149457343988769.pdf
 $ENDCMP
 #
-$CMP 10uF,10V
+$CMP 10K,R0603
+D RES,10K,5%,1/10W,100ppm,0603
+K 10K
+F https://atta.szlcsc.com/upload/public/pdf/source/20170410/1491788163082.pdf
+$ENDCMP
+#
+$CMP 10uF,10V,C0603
 D CAP,10uF,10V,10%,X5R,C0603
 K 10uF
 F https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707703378.pdf
 $ENDCMP
 #
-$CMP 10uF,35V
+$CMP 10uF,25V,C0805
+D CAP,10uF,25V,20%,X5R,C0805
+K 10uF
+F https://atta.szlcsc.com/upload/public/pdf/source/20170105/1483610797995.pdf
+$ENDCMP
+#
+$CMP 10uF,35V,EC0405
 D CAP,10uF,35V,20%,0405(DxL:4x5.3mm)
 K 10uF
 F https://atta.szlcsc.com/upload/public/pdf/source/20181120/C249692_32417ECF269CEB3C4E3C182B5BF18E8B.pdf
@@ -29,22 +41,28 @@ D PWR Symbol
 K 12V
 $ENDCMP
 #
-$CMP 1KF
+$CMP 1KF,R0603
 D RES,1K,1%,1/10W,100ppm,0603
 K 1K,1KF
 F https://atta.szlcsc.com/upload/public/pdf/source/20170410/1491788163082.pdf
 $ENDCMP
 #
-$CMP 1N5819HW-7-F
+$CMP 1N5819HW-7-F,SOD123
 D Schottky Diode,Io=1A,Vf(max)=0.45V,Vrrm=40V,SOD123
 K 5819
 F https://www.diodes.com/assets/Datasheets/ds30217.pdf
 $ENDCMP
 #
-$CMP 200R
+$CMP 200R,R1206
 D RES,200R,5%,1/4W,R1206
 K 200R
 F https://atta.szlcsc.com/upload/public/pdf/source/20170410/1491788163082.pdf
+$ENDCMP
+#
+$CMP 20pF,50V,C0603
+D CAP,20pF,50V,5%,NP0(C0G),C0603
+K 20pF
+F https://atta.szlcsc.com/upload/public/pdf/source/20170726/C123543_1501054637398844144.pdf
 $ENDCMP
 #
 $CMP 24V
@@ -52,7 +70,7 @@ D PWR Symbol
 K 24V
 $ENDCMP
 #
-$CMP 2A
+$CMP 2A,R1812
 D PTC,Ihold=2A,Itrip=4A,Vmax=16V,R1812
 K PTC,2A
 F http://www.ruilon.com.cn/pdf/SMD1812(0.1A~4A).pdf
@@ -63,7 +81,12 @@ D PWR Symbol
 K 3V3
 $ENDCMP
 #
-$CMP 510RF
+$CMP 4056,IC_CHRG
+D Battery charging,1A,SOP-8
+K 4056
+$ENDCMP
+#
+$CMP 510RF,R0603
 D RES,510R,1%,1/10W,100ppm,0603
 K 510R,510RF
 F https://atta.szlcsc.com/upload/public/pdf/source/20170920/C23193_1505901125164982575.pdf
@@ -74,10 +97,16 @@ D PWR Symbol
 K 5V0
 $ENDCMP
 #
-$CMP 680RF
+$CMP 680RF,R0603
 D RES,680R,1%,1/10W,100ppm,0603
 K 680R,680RF
 F https://atta.szlcsc.com/upload/public/pdf/source/20170912/C112310_1505207748974963379.pdf
+$ENDCMP
+#
+$CMP 8M-Crystal_HC-49SMD
+D CRY,8M,20pF,20PPM,ESR=40R
+K 8M,OSC,CRY
+F https://atta.szlcsc.com/upload/public/pdf/source/20180726/C259040_4A48FBC42BA3ED240DC9FB10519399E9.pdf
 $ENDCMP
 #
 $CMP AMS1117-3.3
@@ -96,6 +125,24 @@ $CMP AT8870
 D Brushed DC Motor Driver
 K AT,8870
 F https://www.heroic.com.cn/public/uploads/file/20191114/1573721316525635.pdf
+$ENDCMP
+#
+$CMP CN-4P-1.25mm-VSMD-JS
+D CONN,4P,W1.25mm,Vertical,SMD
+K CN,CN4
+F https://atta.szlcsc.com/upload/public/pdf/source/20190603/C395345_6103FF69BF9E41C3EA926150E3846BA5.pdf
+$ENDCMP
+#
+$CMP CN-6P-1.25mm-VSMD-JS
+D CONN,4P,W1.25mm,Vertical,SMD
+K CN,CN4
+F https://atta.szlcsc.com/upload/public/pdf/source/20190603/C395345_6103FF69BF9E41C3EA926150E3846BA5.pdf
+$ENDCMP
+#
+$CMP CN-USB-C-16PIN-Receptacle-SHOU_HAN
+D USB 2.0-only Type-C Receptacle connector,3A,30V
+K usb universal serial bus type-C USB2.0
+F https://atta.szlcsc.com/upload/public/pdf/source/20190521/C393939_7B9043D4CF1026AF443AB60D91FBCD5C.pdf
 $ENDCMP
 #
 $CMP CN_01x02_F
@@ -125,6 +172,18 @@ $ENDCMP
 $CMP GNDA
 D AGND
 K power-flag
+$ENDCMP
+#
+$CMP LED_B
+D Blue LED,2mA,0603
+K LED
+F http://www.orient-opto.com/WEB/files/19529/2018-10-26/ORH-B36G%20(2mA)%20-%20捞槽板%20.pdf
+$ENDCMP
+#
+$CMP MCP41010
+D Single Digital Potentiometer with SPI Interface,256 taps,10K
+K SPI,10K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
 #
 $CMP MMBT3904LT1G
@@ -159,6 +218,34 @@ $ENDCMP
 #
 $CMP STM32F042F4P6
 F https://www.st.com/resource/en/datasheet/stm32f042c4.pdf
+$ENDCMP
+#
+$CMP TPS562200
+D DCDC,Vin=4.5~17V,Iout=2A,Vout=0.76~7V,SOT-23-6,TPS562200,TI
+K TPS562200,TPS563200
+F https://www.ti.com/lit/ds/symlink/tps562200.pdf?&ts=1589295815875
+$ENDCMP
+#
+$CMP TYPE-C-16PIN-Socket-SHOU_HAN
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP TestPoint
+D TP,TestPoint
+$ENDCMP
+#
+$CMP TestPoint_Flag
+D test point (alternative flag-style design)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_Probe
+D test point (alternative probe-style design)
+K test point tp
+F ~
 $ENDCMP
 #
 $CMP VCC
