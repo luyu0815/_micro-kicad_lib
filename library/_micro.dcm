@@ -127,6 +127,12 @@ K AT,8870
 F https://www.heroic.com.cn/public/uploads/file/20191114/1573721316525635.pdf
 $ENDCMP
 #
+$CMP CH340N
+D USB to UART(TTL),CH340,SOP8
+K USB,UART
+F https://spec.infonet.io/IC/USB_TO_UART%2CCH340DS1%2CVCC%3D2.8~5.3V%2C-20~%2B85%E2%84%83.pdf
+$ENDCMP
+#
 $CMP CN-4P-1.25mm-VSMD-JS
 D CONN,4P,W1.25mm,Vertical,SMD
 K CN,CN4
